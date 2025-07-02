@@ -10,8 +10,11 @@ public class MyController {
 	public String home() {
 		return "index";
 	}
+	
+	
 	@RequestMapping("test")
 	public String test() {
+		System.out.println("hiih");
 		return "test";
 	}
 	
